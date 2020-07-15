@@ -1,0 +1,364 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+/* // nav, header, video // */
+.header-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -7px;  
+}
+#video-bg {
+  width: 100%;
+}
+#mobile-bg {
+  display: none;
+}
+#header-title {
+  position: absolute;
+  width: 45vw;
+  margin-top: 40%;
+  margin-left: 6.5%;
+}
+.trailblazers-line1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 90px; 
+  text-align: center; 
+  position: absolute; 
+  color: white; 
+  /* color: rgb(28, 141, 206);  */
+  margin-top: 20%;
+  margin-left: 19%;
+  z-index: 3; 
+}
+.trailblazers-line2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 90px; 
+  text-align: center; 
+  position: absolute; 
+  color: rgb(163, 163, 163); 
+  margin-top: 25.5%;
+  margin-left: 25%;
+  z-index: 3; 
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  z-index: 2;
+  background-color: rgba(17, 17, 17, 0.5); /*dim the background*/
+  opacity: 0.95;  
+}
+#logo-main {
+  margin-top: .4em; 
+  margin-left: 1em; 
+  width: 315px;
+  border-radius: 0; 
+  z-index: 4; 
+  position: absolute;  
+}
+.navigation{
+  padding-bottom:30px;
+  padding-right: 50px; 
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:4;
+}
+.navbar-right{
+  float:right;
+  word-spacing: 20px; 
+  letter-spacing: .1em; 
+  /* background-color: black;  */
+  padding: 28px; 
+  opacity: 0.93; 
+
+}
+.navbar-right a{
+  text-decoration: none;
+  font-size: 15.5px; 
+  padding:10px;
+  color: #fff;
+  font-family: 'Raleway';
+  font-weight: thin; 
+}
+.navbar-right a:hover{
+   background-color: rgb(169, 204, 29); 
+   color: rgb(49, 49, 49); 
+   /* background-color: rgb(39, 143, 212);  */
+}
+.header-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -7px;  
+}
+#video-bg {
+  width: 100%;
+}
+#header-title {
+  position: absolute;
+  width: 45vw;
+  margin-top: 40%;
+  margin-left: 6.5%;
+}
+/* // end of nav, header, video */
+x
+/* // nav bar drop down */
+.dropdown {
+  color: rgb(49, 49, 49); 
+  z-index: 4; 
+  padding: 6px; 
+}
+ul{
+  padding: 0;
+  list-style: none;
+  color: rgb(49, 49, 49); 
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 18px;
+  text-align: left;
+  color: rgb(49, 49, 49); 
+}
+ul li a{
+  display: block;
+}
+ul li a:hover{
+background-color: rgb(169, 204, 29); 
+}
+ul li ul.dropdown{
+  min-width: 175px; /* Set width of the dropdown */
+  background-color: black; 
+  padding: 6px; 
+  word-spacing: 0px; 
+  display: none;
+  position: absolute;
+  z-index: 5; 
+  left: 0;
+}
+ul li:hover ul.dropdown{
+  display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li{
+  display: block;
+}
+/* // end of navbar drop down */
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+
+
+
+
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+/* // media queries nav, header, video */
+@media only screen and (max-width: 768px) {
+#video-bg {
+  display: none;
+  }
+#mobile-bg {
+  display: block;
+  width: 100%;
+  height: 330px;
+  border-radius: 0px; 
+  }
+#header-title {
+  position: absolute;
+  width:65vw;
+  margin-top: 35%;
+  margin-left: 6.5%;
+  } 
+}
+@media only screen and (max-width: 1035px) {
+.trailblazers-line1 {
+font-size: 60px;
+margin-left: 17%;
+  }
+.trailblazers-line2 {
+font-size: 60px; 
+margin-left: 23%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .trailblazers-line1 {
+  font-size: 43px;
+  margin-left: 20%;
+  margin-top: 14%; 
+  }
+  .trailblazers-line2 {
+  font-size: 43px; 
+  margin-left: 25%;
+  margin-top: 19%;
+    }
+  }
+@media only screen and (max-width: 615px) {
+  .trailblazers-line1 {
+  font-size: 40px;
+  margin-left: 13%;
+  margin-top: 26%; 
+  }
+    
+  .trailblazers-line2 {
+    font-size: 40px; 
+    margin-left: 18%;
+    margin-top: 33%;
+  }
+    }
+@media only screen and (max-width: 430px) {
+  .trailblazers-line1 {
+  font-size: 35px;
+  margin-left: 10%;
+}
+    
+  .trailblazers-line2 {
+  font-size: 35px; 
+  margin-left: 15%;
+}
+#logo-main {
+  width: 115px; 
+  margin-left: .5em;
+}
+}
+@media only screen and (min-width: 1700px) {
+  .trailblazers-line1 {
+    font-size: 120px;
+    margin-left: 26%;
+}
+    
+  .trailblazers-line2 {
+    font-size: 120px; 
+    margin-top: 26%;
+    margin-left: 31%;
+  }
+}
+  @media only screen and (max-width: 1035px) {
+    #logo-main {
+      width: 220px; 
+    }
+    .navbar-right a{
+      color: white;
+      font-size: 11px; 
+      }
+    .navbar-right {
+      word-spacing: 7px; 
+      padding: 5px; 
+      letter-spacing: 0.1em; 
+      }
+    .navigation {
+      padding-top: 20px; 
+      margin-left: 20px; 
+      padding-right: 100px; 
+    }
+    ul li ul.dropdown{
+      min-width: 160px; 
+  }
+}
+  @media only screen and (max-width: 750px) {
+    #logo-main {
+      width: 140px; 
+      margin-left: .6em;
+    }
+    .navbar-right a{
+      color: white;
+      font-size: 7px; 
+      }
+    .navbar-right {
+      word-spacing: -15px; 
+      padding: 5px; 
+      letter-spacing: 0.1em; 
+      }
+    .navigation {
+      margin-left: 20px; 
+      padding-right: 55px;
+      } 
+      ul li ul.dropdown{
+        min-width: 180px;
+    }
+    ul li{
+      line-height: 9px;
+  }
+} 
+  @media only screen and (max-width: 430px) {
+    #logo-main {
+      width: 130px; 
+    }
+    .navbar-right a{
+      color: white;
+      font-size: 7px; 
+      }
+    .navbar-right {
+      word-spacing: -15px; 
+      padding: 5px; 
+      letter-spacing: 0.1em; 
+      }
+    .navigation {
+      margin-top: 14%; 
+      } 
+  }
+  /* // end of media queries nav, header, video */
+ /* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+
+
+
+/* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+/* // arrow */
+  .fa-chevron-down {
+    color: white;
+    z-index: 4; 
+    top: 80%; 
+    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    cursor: pointer; 
+  }
+  @keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+  /* // end of arrow */
+  /* //////// ****** /////////////////////////// */
+/* //////// ****** /////////////////////////// */
+

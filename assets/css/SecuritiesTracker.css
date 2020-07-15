@@ -1,0 +1,134 @@
+/* // SecuritiesTracker section  */
+.blackimg2 { background-image: url("../images/whoweare2.png"); height: 550px;}
+
+#STsquare {
+margin-top: -16px;
+}
+
+.STlogo {
+    margin-top: 65px; 
+    font-size: 70px;
+    font-weight: bold; 
+    letter-spacing: -7px; 
+    position: absolute; 
+}
+
+.STlogo span {
+    margin-left: -4px; 
+}
+
+#STtext {
+    margin-top: -61px; 
+    letter-spacing: -1px;
+    font-size: 60px; 
+}
+
+#smaller {
+    font-size: 48px; 
+}
+
+.STblurb {
+    color: white;
+    position: absolute; 
+    margin-top: 170px;
+    padding: 30px; 
+    padding-left: 0px; 
+    text-align: left; 
+    font-family: 'Raleway';
+    font-size: 20px; 
+    font-weight: 300px; 
+    width: 600px; 
+    align-content: justify;
+}
+
+#learnmore {
+    font-family: 'Raleway';
+    font-size: 17px;
+    padding: 15px;
+    color: rgb(169, 204, 29); 
+    background-color: rgb(49, 49, 49); 
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 7%;
+    margin-top: 385px;
+    float: left; 
+}
+
+#learnmore:hover {
+    color: rgb(169, 204, 29); 
+    background-color: rgb(61, 61, 61); 
+    cursor: pointer; 
+}
+
+#worldmap {
+    margin-top: 30px;  
+}
+
+#claimsNumber {
+    font-size: 20px;
+    margin-top: 25px; 
+    font-family: 'Raleway';
+    color: rgb(169, 204, 29); 
+    border: 2px solid rgb(28, 144, 211);
+    background-color: rgb(43, 42, 42); 
+    padding: 25px; 
+    padding-left: 40px;
+    padding-right: 40px; 
+    float: right;
+}
+/* // securities tracker media queries  */
+@media only screen and (max-width: 768px) {
+    .STlogo {
+        font-size: 45px;
+        margin-left: 10px; 
+        letter-spacing: -5px; 
+    }
+    #STtext {
+        margin-top: -45px; 
+        font-size: 40px; 
+    }
+    #smaller {
+        font-size: 30px;
+    }
+    .FullyCovered {
+    font-size: 60px;
+    margin-left: 60px;
+    }
+
+    .STblurb {
+        margin-top: 120px;
+        font-size: 15px;
+        width: 500px; 
+    }
+    #STsquare {
+        margin-top: -25px;
+        width: 70px; 
+    }
+    #learnmore {
+        margin-top: 260px;
+    }
+    .grayblueimg { 
+        height: 500px; 
+    }
+    #worldmap {
+        margin-top: 0px;
+    }
+    .blackimg2 {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #worldmap {
+        display: none; 
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .STblurb {
+        font-size: 11px; 
+    }
+    .blackimg2 {
+        height: 400px;
+    }
+}
+/* // end of SecuritiesTracker section */
