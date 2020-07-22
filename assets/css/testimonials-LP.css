@@ -44,7 +44,7 @@
   @media only screen and (min-width: 1000px) {
     .testimonials .block {
       width: 33.3333333333%;
-      height: 280px;
+      height: 380px;
     }
   }
   .testimonials .block:nth-child(n+2) {
@@ -54,7 +54,7 @@
     background-color: black;
   }
   .testimonials .block:nth-child(3), .testimonials .block:nth-child(5),   .testimonials .block:nth-child(7) {
-    background-color: #97b13a;
+    background-color: rgb(138, 171, 37); 
   }
   .testimonials .block:nth-child(6), .testimonials .block:nth-child(8) {
     background-color: rgb(28, 124, 180); 
@@ -73,8 +73,9 @@
     display: block;
     margin-top: 2em;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
+    font-family: 'Raleway';
     color: #fff;
   }
   .testimonials h5 {
@@ -89,7 +90,7 @@
     text-align: left;
     padding-left: 30px;
     padding-top: 25px;
-    height: 300px;
+    height: 380px;
   } 
 
 /* // end of testimonials standalone landing page */
