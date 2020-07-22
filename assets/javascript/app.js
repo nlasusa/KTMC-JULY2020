@@ -23,6 +23,7 @@ $(function(){
    });
    // end of awards and achievements section //
 
+
    // monthly inisghts section
    // ON CLICK EVENTS 
 $("#imgi1").on('click', function(){
@@ -51,6 +52,7 @@ $("#imgi8").on('click', function(){
 });
 // end of monthly insights section
 
+
 // social media buttons 
 // ON CLICK EVENTS
 $(".facebookBtn").on('click', function(){
@@ -66,7 +68,10 @@ $(".linkedinBtn").on('click', function(){
 });
 // end of social media buttons
 
+
 // dropdown navigation 
+////////////////////////////
+// news
 $("#dropdown-news").on('click', function(){
   window.location = "news-lp.html";    
 });
@@ -79,10 +84,19 @@ $("#dropdown-home").on('click', function(){
 $("#news-read-more").on('click', function(){
   window.location = "news-lp.html";    
 });
+// end of news
+
+// testimonials
+$("#dropdown-testimonials").on('click', function(){
+  window.location = "testimonialsLP.html";    
+});
+//end of testimonials
 // end of dropdown navigation 
+
 
 // back to news button // 
 $(".news-LP-ind-backtonews").on('click', function(){
   window.location = "news-lp.html";    
 });
+// end of back to news button 
 

@@ -18,6 +18,22 @@
   display: table;
 }
 
+#about-us-read {
+  color: white;
+  background-color: rgb(51, 51, 51);
+  width: 151px;
+  padding: 5px; 
+  text-align: center; 
+  font-size: 17.5px; 
+  font-family: 'Raleway';
+  margin-top: 12px;
+}
+
+#about-us-read:hover {
+  cursor: pointer;
+  background-color: rgb(78, 78, 78);
+}
+
 @media only screen and (max-width: 430px) {
   .about-us {
     margin-top: -30px; 

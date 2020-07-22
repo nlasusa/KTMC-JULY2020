@@ -1,0 +1,95 @@
+
+/* // testimonials standalone landing page */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .testimonials {
+    margin: auto;
+    padding-top: 16em;
+    padding-bottom: 8em;
+    width: 1100px;
+    max-width: 90%;
+
+  }
+  .testimonials::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .testimonials .block {
+    display: block;
+    margin: 0;
+    margin-top: 0;
+  }
+  @media only screen and (min-width: 650px) {
+    .testimonials .block {
+      float: left;
+      width: 50%;
+      height: 300px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .testimonials h5 {
+      font-size: 18px;
+      padding: 10px;
+    }
+    .testimonials {
+      padding-top: 7em;
+      padding-bottom: 2em;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .testimonials .block {
+      width: 33.3333333333%;
+      height: 280px;
+    }
+  }
+  .testimonials .block:nth-child(n+2) {
+    padding: 1.5em;
+  }
+  .testimonials .block:nth-child(2), .testimonials .block:nth-child(4) {
+    background-color: black;
+  }
+  .testimonials .block:nth-child(3), .testimonials .block:nth-child(5),   .testimonials .block:nth-child(7) {
+    background-color: #97b13a;
+  }
+  .testimonials .block:nth-child(6), .testimonials .block:nth-child(8) {
+    background-color: rgb(28, 124, 180); 
+  }
+  .testimonials .block:nth-child(9) {
+    background-color: black;
+  }
+  .testimonials .block p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .testimonials .block cite span {
+    display: block;
+    margin-top: 2em;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+  }
+  .testimonials h5 {
+    margin-top: 0;
+    font-size: 52px;
+    line-height: 50px;
+    font-weight: 350;
+    color: black;
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    background-color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 25px;
+    height: 300px;
+  } 
+
+/* // end of testimonials standalone landing page */
