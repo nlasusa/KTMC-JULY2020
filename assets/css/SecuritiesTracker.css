@@ -45,7 +45,7 @@ margin-top: -16px;
     font-family: 'Raleway';
     font-size: 17px;
     padding: 15px;
-    color: rgb(169, 204, 29);
+    color: white;
     background-color: rgb(41, 41, 41); 
     border: 1px solid rgb(15, 15, 15);
     border-radius: 7%;
@@ -54,7 +54,6 @@ margin-top: -16px;
 }
 
 #learnmore:hover {
-    color: rgb(169, 204, 29); 
     background-color: rgb(61, 61, 61); 
     cursor: pointer; 
 }
