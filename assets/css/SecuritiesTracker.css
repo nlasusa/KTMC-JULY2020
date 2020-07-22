@@ -45,8 +45,8 @@ margin-top: -16px;
     font-family: 'Raleway';
     font-size: 17px;
     padding: 15px;
-    color: rgb(169, 204, 29); 
-    background-color: rgb(49, 49, 49); 
+    color: rgb(169, 204, 29);
+    background-color: rgb(31, 31, 31); 
     border: 1px solid rgb(15, 15, 15);
     border-radius: 7%;
     margin-top: 385px;
@@ -64,12 +64,12 @@ margin-top: -16px;
 }
 
 #claimsNumber {
-    font-size: 20px;
+    font-size: 21px;
     margin-top: 25px; 
     font-family: 'Raleway';
     color: rgb(169, 204, 29); 
-    border: 2px solid rgb(28, 144, 211);
-    background-color: rgb(43, 42, 42); 
+    /* border: 3px solid rgb(28, 144, 211); */
+    background-color: rgb(31, 31, 31); 
     padding: 25px; 
     padding-left: 40px;
     padding-right: 40px; 
@@ -120,6 +120,10 @@ margin-top: -16px;
 @media only screen and (max-width: 1000px) {
     #worldmap {
         display: none; 
+    }
+
+    #claimsNumber {
+     display: none 
     }
 }
 

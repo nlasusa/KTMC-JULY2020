@@ -20,7 +20,7 @@
 
 #about-us-read {
   color: white;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(31, 31, 31); 
   width: 151px;
   padding: 5px; 
   text-align: center; 
@@ -101,7 +101,7 @@
   background-color: rgb(19, 109, 160); 
 }
 .about-us aside ul li:nth-child(3) {
-  background-color: rgb(61, 61, 61); 
+  background-color: rgb(37, 37, 37); 
 }
 .about-us aside ul li h3 {
   display: table-cell;
