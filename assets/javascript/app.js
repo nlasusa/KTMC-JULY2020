@@ -71,6 +71,7 @@ $(".linkedinBtn").on('click', function(){
 
 // dropdown navigation 
 ////////////////////////////
+
 // news
 $("#dropdown-news").on('click', function(){
   window.location = "news-lp.html";    
@@ -91,8 +92,12 @@ $("#dropdown-testimonials").on('click', function(){
   window.location = "testimonialsLP.html";    
 });
 //end of testimonials
-// end of dropdown navigation 
+$("#dropdown-insights").on('click', function(){
+  window.location = "insights-LP.html";    
+});
+// insights
 
+//end of insights
 
 // back to news button // 
 $(".news-LP-ind-backtonews").on('click', function(){
@@ -100,3 +105,6 @@ $(".news-LP-ind-backtonews").on('click', function(){
 });
 // end of back to news button 
 
+
+////////////////////////////
+// end of dropdown navigation 
