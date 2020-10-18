@@ -129,6 +129,96 @@
 </div>   
 <!-- // end of nav, header, video background -->
 
+<!-- // article news section  -->
+<div class="bg-image blackimg3">
+
+  <div class="news" data-aos="fade-left">
+   LATEST HEADLINES
+  </div>
+
+<!-- // Article grid  -->
+<div class="container">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var articles = [
+    {
+      onClickLink: 'news-1.html',
+      imgageSource: 'assets/images/NewsLPimages/nissan.jpg',
+      date: 'July 1, 2020',
+      title: 'KTMC Announces Action in Japan Against Nissan Corporation',
+    },
+    {
+      onClickLink: 'news-2.html',
+      imgageSource: 'assets/images/NewsLPimages/benchmarkl.jpg',
+      date: 'June 26, 2020',
+      title: 'KTMC Once Again Included in the Benchmark Litigation Guide to Americas Leading Litigation Firms and Attorneys for 2020',
+    },
+    {
+      onClickLink: 'news-3.html',
+      imgageSource: 'assets/images/NewsLPimages/tesla.jpg',
+      date: 'June 13, 2020',
+      title: 'Delaware Chancery Court Denies MTD Litigation Challenging Elon Musks $55.8 Billion Compensation Package',
+    },
+    {
+      onClickLink: 'news-4.html',
+      imgageSource: 'assets/images/NewsLPimages/snapinc.jpg',
+      date: 'June 3, 2020',
+      title: 'Snap Investors Reach $187.5 Million Settlement in Securities Fraud Class Action Against Snap Inc. and Its Senior Executives'
+    }
+  ]
+
+  var rootElement = document.getElementById("imageGalleryWithTitle");
+
+  for (let i=0; i < articles.length; i++) {
+    //Create the container
+    var itemContainer = document.createElement("a");
+    itemContainer.classList.add("article-container");
+    var href = document.createAttribute("href");
+    href.value = articles[i].onClickLink;
+    itemContainer.setAttributeNode(href);
+    var target = document.createAttribute("target");
+    target.value = '_blank';
+    itemContainer.setAttributeNode(target);
+
+    //Create Image
+    var image = document.createElement("img");
+    image.classList.add("article-image");
+    var src = document.createAttribute("src");
+    src.value = articles[i].imgageSource;
+    image.setAttributeNode(src);
+    var alt = document.createAttribute("alt");
+    alt.value = articles[i].title;
+    image.setAttributeNode(alt);
+
+    //Create title
+    var h3 = document.createElement("h3");
+    h3.classList.add("article-title");
+    var h3Text = document.createTextNode(articles[i].title);
+    h3.appendChild(h3Text);
+
+    //create date
+    var h4 = document.createElement("h4");
+    h4.classList.add("article-date"); 
+    var h4Text = document.createTextNode(articles[i].date); 
+    h4.appendChild(h4Text); 
+
+    //Atach image and title to container
+    itemContainer.appendChild(image);
+    itemContainer.appendChild(h4); 
+    itemContainer.appendChild(h3);
+
+    //Attach element to root div
+    rootElement.appendChild(itemContainer);
+  }
+})
+// </script>
+</div>
+
+  <div id='imageGalleryWithTitle' class="news-container" data-aos="fade-down"></div>
+  <div id="news-read-more">View More News</div><br>
+</div>
+<!-- // End of Article grid -->
+<!-- // end of article news section  -->
 
 <!-- about us section -->
 <div class="bg-image blackimg">
@@ -240,98 +330,6 @@
 
 </div>
 <!-- end of about us section -->
-
-
-<!-- // article news section  -->
-<div class="bg-image blackimg3">
-
-  <div class="news" data-aos="fade-left">
-   LATEST HEADLINES
-  </div>
-
-<!-- // Article grid  -->
-<div class="container">
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var articles = [
-    {
-      onClickLink: 'news-1.html',
-      imgageSource: 'assets/images/NewsLPimages/nissan.jpg',
-      date: 'July 1, 2020',
-      title: 'KTMC Announces Action in Japan Against Nissan Corporation',
-    },
-    {
-      onClickLink: 'news-2.html',
-      imgageSource: 'assets/images/NewsLPimages/benchmarkl.jpg',
-      date: 'June 26, 2020',
-      title: 'KTMC Once Again Included in the Benchmark Litigation Guide to Americas Leading Litigation Firms and Attorneys for 2020',
-    },
-    {
-      onClickLink: 'news-3.html',
-      imgageSource: 'assets/images/NewsLPimages/tesla.jpg',
-      date: 'June 13, 2020',
-      title: 'Delaware Chancery Court Denies MTD Litigation Challenging Elon Musks $55.8 Billion Compensation Package',
-    },
-    {
-      onClickLink: 'news-4.html',
-      imgageSource: 'assets/images/NewsLPimages/snapinc.jpg',
-      date: 'June 3, 2020',
-      title: 'Snap Investors Reach $187.5 Million Settlement in Securities Fraud Class Action Against Snap Inc. and Its Senior Executives'
-    }
-  ]
-
-  var rootElement = document.getElementById("imageGalleryWithTitle");
-
-  for (let i=0; i < articles.length; i++) {
-    //Create the container
-    var itemContainer = document.createElement("a");
-    itemContainer.classList.add("article-container");
-    var href = document.createAttribute("href");
-    href.value = articles[i].onClickLink;
-    itemContainer.setAttributeNode(href);
-    var target = document.createAttribute("target");
-    target.value = '_blank';
-    itemContainer.setAttributeNode(target);
-
-    //Create Image
-    var image = document.createElement("img");
-    image.classList.add("article-image");
-    var src = document.createAttribute("src");
-    src.value = articles[i].imgageSource;
-    image.setAttributeNode(src);
-    var alt = document.createAttribute("alt");
-    alt.value = articles[i].title;
-    image.setAttributeNode(alt);
-
-    //Create title
-    var h3 = document.createElement("h3");
-    h3.classList.add("article-title");
-    var h3Text = document.createTextNode(articles[i].title);
-    h3.appendChild(h3Text);
-
-    //create date
-    var h4 = document.createElement("h4");
-    h4.classList.add("article-date"); 
-    var h4Text = document.createTextNode(articles[i].date); 
-    h4.appendChild(h4Text); 
-
-    //Atach image and title to container
-    itemContainer.appendChild(image);
-    itemContainer.appendChild(h4); 
-    itemContainer.appendChild(h3);
-
-    //Attach element to root div
-    rootElement.appendChild(itemContainer);
-  }
-})
-// </script>
-</div>
-
-  <div id='imageGalleryWithTitle' class="news-container" data-aos="fade-down"></div>
-  <div id="news-read-more">View More</div><br>
-</div>
-<!-- // End of Article grid -->
-<!-- // end of article news section  -->
 
 
 <!-- SecuritiesTracker section -->
