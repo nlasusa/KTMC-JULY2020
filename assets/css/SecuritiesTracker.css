@@ -1,5 +1,6 @@
 /* // SecuritiesTracker section  */
-.blackimg2 { background-image: url("../images/whoweare2.png"); height: 550px;}
+.blackimg2 { background-color: black; height: 550px;}
+.greenimg { background-image: url("../images/green.png"); height: 500px;}
 
 #STsquare {
 margin-top: -16px;
@@ -20,7 +21,7 @@ margin-top: -16px;
 #STtext {
     margin-top: -61px; 
     letter-spacing: -1px;
-    font-size: 60px; 
+    font-size: 58px; 
 }
 
 #smaller {
@@ -46,8 +47,8 @@ margin-top: -16px;
     font-size: 17px;
     padding: 15px;
     color: white;
-    background-color: rgb(41, 41, 41); 
-    border: 1px solid rgb(15, 15, 15);
+    background-color: black;
+    border: none;
     border-radius: 7%;
     margin-top: 385px;
     float: left; 

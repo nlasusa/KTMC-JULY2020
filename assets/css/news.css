@@ -1,4 +1,5 @@
-.blackimg3 { background-image: url("../images/whoweare.png"); height: 100%;}
+/* .blackimg3 { background-image: url("../images/whiteimg.png"); height: 100%;} */
+.blackimg3 { background-color: white; height: 100%;}
 
 /* //////// ****** /////////////////////////// */
 /* // news header */
@@ -11,7 +12,7 @@
   padding-top: 40px; 
   text-align: center;
   letter-spacing: .3rem;
-  color: white;
+  color: black;
 }
 /* // end of news header */
 /* //////// ****** /////////////////////////// */
@@ -44,7 +45,7 @@
 .article-container {
   text-decoration: none;
   background-color: rgb(8,8,8); 
-  color: white; 
+  color: white;
   /* color: rgb(138, 171, 37);  */
   display: flex;
   flex-direction: column;
