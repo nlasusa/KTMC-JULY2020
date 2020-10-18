@@ -105,6 +105,5 @@ $(".news-LP-ind-backtonews").on('click', function(){
 });
 // end of back to news button 
 
-
 ////////////////////////////
 // end of dropdown navigation 

@@ -1,5 +1,6 @@
 .blackimg3 { background-image: url("../images/whoweare3.png"); height: 100%;}
 
+/* //////// ****** /////////////////////////// */
 /* // news header */
 .news {
   font-family: 'Raleway'; 
@@ -12,7 +13,10 @@
   color: white; 
 }
 /* // end of news header */
+/* //////// ****** /////////////////////////// */
 
+
+/* //////// ****** /////////////////////////// */
 /* // article grid  */
 .news-container {
   display: flex;
@@ -62,6 +66,10 @@
   font-family: 'Raleway'; 
 }
 
+.news-LP-ind-text {
+  font-size: 20px; 
+}
+
 @media only screen and (max-width: 430px) {
 
   .article-container {
@@ -105,3 +113,4 @@
   font-family: 'Raleway';
 }
 /* // end of article grid */
+  /* //////// ****** /////////////////////////// */

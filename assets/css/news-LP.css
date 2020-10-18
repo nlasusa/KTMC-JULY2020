@@ -33,8 +33,6 @@ html {
     padding-top: 20px; 
     position:absolute;
     top: 0;
-    /* background-color: black; */
-    /* border-bottom: 4px solid rgb(228, 228, 228); */
     width:100%;
     z-index:4;
     font-size: 15.5px; 
@@ -47,6 +45,7 @@ html {
     font-family: 'Raleway';
     color: white; 
     text-align: left; 
+    width: 80vw; 
   }
 
   .news-LP-ind-image {
@@ -114,7 +113,9 @@ html {
     margin-top: -7px;  
   }
   /* // end of nav, header, video */
-  x
+  /* ///////////////////////////////// */
+
+
   /* // nav bar drop down */
   .dropdown {
     color: rgb(49, 49, 49); 
@@ -248,7 +249,7 @@ html {
    /* //////// ****** /////////////////////////// */
   /* //////// ****** /////////////////////////// */
   
-
+  /* //////// ****** /////////////////////////// */
   /* // news header */
 .news {
     font-family: 'Raleway'; 
@@ -260,10 +261,11 @@ html {
     letter-spacing: .4rem;
     color: rgb(255, 255, 255); 
   }
-
   /* // end of news header */
+  /* //////// ****** /////////////////////////// */
 
-  
+
+  /* //////// ****** /////////////////////////// */
   /* // article grid  */
   .news-container {
     display: flex;
@@ -321,9 +323,8 @@ html {
     font-size:14px;
     font-family: 'Raleway';
   }
-
   /* // end of article grid */
-
+  /* //////// ****** /////////////////////////// */
 
   
   @media only screen and (max-width: 430px) {
@@ -338,20 +339,23 @@ html {
       font-family: 'Raleway';
     }
     .news-LP-ind-title { 
-      padding-top: 140px; 
-      font-size: 20px; 
+      padding-top: 150px; 
+      font-size: 17px; 
     }
     .news-LP-ind-date { 
       padding-top: 160px; 
-      font-size: 16px;
+      font-size: 15px;
     }
     .news-LP-ind-image {
       padding-bottom: 20px; 
       padding-left: 30px; 
     }
+    .news-LP-ind-text {
+      font-size: 12px; 
+    }
   }
   
-  @media only screen and (max-width: 1150px) {
+  @media only screen and (max-width: 1000px) {
     .article-container {
       width: 60vw;
     }
@@ -364,14 +368,18 @@ html {
       }
       .news-LP-ind-title { 
         padding-top: 100px; 
-        font-size: 25px; 
+        font-size: 21px; 
+        width: 90vw; 
       }
       .news-LP-ind-date { 
-        padding-top: 160px; 
+        padding-top: 115px; 
         font-size: 20px;
       }
       .news-LP-ind-image {
         padding-bottom: 20px; 
+      }
+      .news-LP-ind-text {
+        font-size: 13px; 
       }
     }
 
