@@ -92,11 +92,17 @@ $("#dropdown-testimonials").on('click', function(){
   window.location = "testimonialsLP.html";    
 });
 //end of testimonials
+
+// in the community 
+$("#dropdown-community").on('click', function(){
+  window.location = "community.html";    
+});
+// end of in the community 
+
+// insights
 $("#dropdown-insights").on('click', function(){
   window.location = "insights-LP.html";    
 });
-// insights
-
 //end of insights
 
 // back to news button // 
