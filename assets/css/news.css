@@ -11,7 +11,7 @@
   padding-top: 40px; 
   text-align: center;
   letter-spacing: .3rem;
-  color: white; 
+  color: white;
 }
 /* // end of news header */
 /* //////// ****** /////////////////////////// */
@@ -29,11 +29,11 @@
 }
 
 #news-read-more {
-  color: white; 
+  color: white;
   font-family: 'Raleway'; 
   text-align: center; 
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 #news-read-more:hover {
@@ -59,7 +59,7 @@
 .article-date {
   font-size: 18px;
   color: rgb(162, 202, 40); 
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(26, 26, 26); 
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   /* background-color: rgb(19, 109, 160);  */
