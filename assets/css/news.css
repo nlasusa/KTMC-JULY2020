@@ -12,7 +12,7 @@
   padding-top: 40px; 
   text-align: center;
   letter-spacing: .3rem;
-  color: black;
+  color: white;
 }
 /* // end of news header */
 /* //////// ****** /////////////////////////// */
@@ -30,7 +30,7 @@
 }
 
 #news-read-more {
-  color: white;
+  color: black;
   font-family: 'Raleway'; 
   text-align: center; 
   padding-top: 12px;
