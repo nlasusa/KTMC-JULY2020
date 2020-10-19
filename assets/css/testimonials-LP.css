@@ -55,13 +55,13 @@
   }
   .testimonials .block:nth-child(3), .testimonials .block:nth-child(5),   .testimonials .block:nth-child(7) {
     /* background-color: rgb(138, 171, 37);  */
-    background-color: rgb(125, 156, 29); 
+    background-color: rgb(5, 131, 180); 
   }
   .testimonials .block:nth-child(6), .testimonials .block:nth-child(8) {
     background-color: black;
   }
   .testimonials .block:nth-child(9) {
-    background-color:  rgb(125, 156, 29); 
+    background-color:  rgb(1, 131, 182); 
   }
   .testimonials .block p {
     margin: 0;
