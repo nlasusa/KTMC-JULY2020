@@ -55,3 +55,9 @@
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 430px) {
+    .all-comm-logos {
+        text-align: center; 
+    }
+}
