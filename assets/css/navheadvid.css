@@ -81,8 +81,11 @@ html {
   letter-spacing: .1em; 
   /* background-color: black;  */
   padding: 28px; 
-  opacity: 0.93; 
+  opacity: 0.91; 
+}
 
+#practice-areas {
+  word-spacing: 3px; 
 }
 .navbar-right a{
   text-decoration: none;
@@ -115,7 +118,7 @@ html {
 x
 /* // nav bar drop down */
 .dropdown {
-  color: rgb(49, 49, 49); 
+  color: black;
   z-index: 4; 
   padding: 6px; 
 }
@@ -129,7 +132,7 @@ ul li{
   position: relative;
   line-height: 18px;
   text-align: left;
-  color: rgb(49, 49, 49); 
+  color: black;
 }
 ul li a{
   display: block;
@@ -139,7 +142,7 @@ background-color: rgb(169, 204, 29);
 }
 ul li ul.dropdown{
   min-width: 175px; /* Set width of the dropdown */
-  background-color: black; 
+  background-color: black;
   padding: 6px; 
   word-spacing: 0px; 
   display: none;

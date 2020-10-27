@@ -1,6 +1,6 @@
 /* // SecuritiesTracker section  */
 .blackimg2 { background-color: black; height: 550px;}
-.greenimg { background-image: url("../images/green.png"); height: 500px;}
+.greenimg { background-image: url("../images/b&w.jpg"); height: 550px; background-repeat: no-repeat;}
 
 #STsquare {
 margin-top: -16px;

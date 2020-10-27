@@ -2,8 +2,8 @@
 #social {
     text-align: center;
     padding-bottom: 40px; 
-    padding-top: 30px; 
-    background-color: rgb(8, 8 ,8); 
+    padding-top: 46px; 
+    background-color: white;
   }
   
   .smGlobalBtn { /* global button class */
@@ -99,7 +99,7 @@
   
   #allRights {
     font-size: 10px;
-    color: white; 
+    color: black;
     padding-top: 15px; 
   }
   

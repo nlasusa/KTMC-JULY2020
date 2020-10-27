@@ -1,0 +1,56 @@
+.FAQ-header {
+    font-family: 'Raleway'; 
+    font-size: 50px; 
+    font-weight: 300;
+    margin-bottom: 15px; 
+    margin-top: 70px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .3rem;
+    color: white;
+  }
+  
+  .FAQ-section .container {
+      font-family: 'Raleway'; 
+      height: 100%;
+      margin-top: 20px; 
+      padding: 60px; 
+      margin-bottom: 60px; 
+      color: black;
+      background-color: white;
+  }
+  
+  .FAQ-question {
+    color: rgb(5, 131, 180);
+    font-weight: bold; 
+    padding-bottom: 10px;
+    font-size: 20px; 
+  }
+
+  .FAQ-response {
+      font-size: 16px;
+      color: black; 
+      margin-bottom: 10px;
+  }
+
+  .FAQ-US, .FAQ-Non-US {
+      background-color: rgb(142, 177, 37);
+      color: black;
+      float: right; 
+      padding: 10px; 
+      margin-right: 10px; 
+      width: 120px;
+      font-size: 16px; 
+      text-align: center; 
+  }
+
+  .FAQ-US:hover, .FAQ-Non-US:hover {
+      cursor: pointer; 
+      background-color: rgb(122, 153, 28);
+  }
+
+  .Non-US-FAQ-section {
+      display: none; 
+  }
+
+ 

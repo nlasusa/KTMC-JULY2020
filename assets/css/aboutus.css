@@ -2,7 +2,7 @@
 /* //////// ****** /////////////////////////// */
 /* // about us section */
 
-.blackimg { background-image: url("../images/whoweare.png"); height: 100%;}
+.gray {background-color: rgb(255, 255, 255); height: 100%;}
 
 .about-us {
   padding-top: 100px; 
@@ -11,6 +11,7 @@
   width: 1130px;
   max-width: 90%;
   margin-top: -7px; 
+  color: black;
 }
 .about-us::after {
   clear: both;
@@ -19,10 +20,10 @@
 }
 
 #about-us-read {
-  color: white;
-  background-color: rgb(41, 41, 41); 
+  color: black; 
+  border: 1px solid black; 
   width: 151px;
-  padding: 5px; 
+  padding: 10px; 
   text-align: center; 
   font-size: 17.5px; 
   font-family: 'Raleway';
@@ -33,36 +34,12 @@
   cursor: pointer;
   background-color: rgb(78, 78, 78);
 }
-
-@media only screen and (max-width: 430px) {
-  .about-us {
-    margin-top: -30px; 
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .about-us {
-    margin-top: -30px; 
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .about-us article, .about-us aside {
-    float: left;
-    width: 47.5%;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .about-us article {
-    margin-right: 5%;
-  }
-}
 .about-us article h2 {
   margin: 0;
   font-family: Raleway; 
   font-size: 50px;
   font-weight: 300;
-  color: white;
+  color: black;
 }
 .about-us article p {
   margin-top: 4px; 
@@ -70,7 +47,7 @@
   font-size: 20px;
   line-height: 28px;
   font-weight: 245;
-  color: white;
+  color: black;
 }
 .about-us aside ul {
   margin: 0;
@@ -101,7 +78,7 @@
   background-color: rgb(19, 109, 160); 
 }
 .about-us aside ul li:nth-child(3) {
-  background-color: rgb(41, 41, 41); 
+  background-color: black;
 }
 .about-us aside ul li h3 {
   display: table-cell;
@@ -128,7 +105,7 @@
 /* //////// ****** /////////////////////////// */
 
 /* // practice area tiles */
-.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+/* .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
   color: white;
   border: 1px solid white;
   width: 360px;
@@ -152,10 +129,34 @@
 .tile1:hover, .tile2:hover, .tile3:hover, .tile4:hover, .tile5:hover, .tile6:hover, .tile7:hover, .tile8:hover, .tile9:hover {
   cursor: pointer; 
   transform: scale(1.03);
-}
+} */
 
 @media only screen and (max-width: 750px) {
   .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
     margin-left: 17%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .about-us {
+    margin-top: -30px; 
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-us {
+    margin-top: -30px; 
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-us article, .about-us aside {
+    float: left;
+    width: 47.5%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .about-us article {
+    margin-right: 5%;
   }
 }
